@@ -22,9 +22,7 @@ void putTextCairo(
 	bool fontItalic,
 	bool fontBold);
 
-//To Do:
-//1.)Move code from main into functions(maybe inline)
-//2.)introduce OpenMP to the code
+
 
 void constructAlphabet(Mat* imgs, String* alphabet, String const fontFace, double fontSize, Scalar textColor, Scalar backColor, int size);
 
